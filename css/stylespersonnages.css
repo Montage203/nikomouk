@@ -1,0 +1,213 @@
+:focus {
+  outline: 0;
+}
+.clearfix {
+  clear: both;
+}
+.habbo-imager .esquerda {
+  width: 200px;
+  float: left;
+}
+.habbo-imager .direita {
+  width: calc(100% - 210px);
+  float: right;
+}
+.habbo-imager input,
+select {
+  background-color: #fff;
+  height: 40px;
+  padding: 0 20px;
+  color: #666;
+  margin-bottom: 10px;
+  border: none;
+  float: right;
+  border-radius: 0 5px 5px 0;
+  font-family: Questrial, sans-serif;
+  position: relative;
+  box-shadow: inset 0 -4px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.25),
+    0 4px rgba(0, 0, 0, 0.1);
+}
+.habbo-imager input {
+    width: calc(100% - 158px);
+}
+select {  width: calc(100% - 118px);}
+.habbo-imager select {
+  background-image: url(https://2.bp.blogspot.com/-YXLWWzMHa5E/Vztpjo0x8pI/AAAAAAAAFKQ/WS3OeDhZDx8H2AcBFa9FeX6WvZJb7GgHgCLcB/s1600/seta.png);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 20px) center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.habbo-imager select:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.habbo-imager .bc {
+  background-color: #fff;
+  border: none;
+  border-radius: 4px 4px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-left: 40px;
+  margin-right: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type="checkbox"]:before,
+input[type="radio"]:before {
+  width: 28px;
+  height: 28px;
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  color: #666;
+}
+input[type="radio"]:checked:before {
+  content: "\f111";
+  font-family: FontAwesome;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 4px;
+}
+input[type="checkbox"]:checked:before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 4px;
+}
+.habbo-imager .tamanho {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px 5px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  float: left;
+  margin-left: 20px;
+ /* margin-right: 30px;*/
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.habbo-imager .botao {
+  background-color: #FEC44A;
+  border: none;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  float: left;
+  margin-bottom: 5px;
+
+  box-shadow: inset 0 -4px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.25),
+    0 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.habbo-imager .botao i {
+  margin-top: 12px;
+}
+.habbo-imager .m-g {
+  line-height: 40px;
+  width: 80px;
+  text-align: center;
+}
+.habbo-imager .botao.btn-r {
+  float: right;
+
+}
+.habbo-imager .cabeca {
+  background-color: #fff;
+  border: none;
+  width: 30px;
+  height: 30px;
+  float: left;
+  padding: 5px;
+  margin-left: 40px;
+  margin-right: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.habbo-imager .msg {
+  float: left;
+  line-height: 34px;
+  margin-left: 10px;
+}
+.habbo-imager .info {
+  background-color: #303640;
+  border-radius: 5px 0 0 5px;
+  width: 98px;
+  padding: 0 10px;
+  height: 41px;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: inset 0 -3px rgba(0, 0, 0, 0.1), inset 0 0 30px rgba(0, 0, 0, 0.2),
+    3px 0 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
+  margin-bottom: 9px;
+  float: left;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 -4px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.25),
+    0 4px rgba(0, 0, 0, 0.1);
+}
+.habbo-imager .info.hotel {
+  background-image: url(https://3.bp.blogspot.com/-P5GY4qoYEYg/VztpjlW_egI/AAAAAAAAFKU/4XGGDKkzDFMhjAxZ1TZ4_C4PeOdjMFA2wCLcB/s1600/hotel.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+}
+.habbo-imager select.hotel {
+  width: calc(100% - 50px);
+}
+.habbo-imager .habbo {
+  background-color: #fff;
+  background-image: url(https://i.imgur.com/PAIFiy5.png);
+  height: 236px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: inset 0 -4px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.25),
+    0 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 7px;
+}
+.habbo-imager .habbo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#bb {
+  display: none;
+}
+#b_l svg,
+#b_r svg,
+#h_l svg,
+#h_r svg {
+  margin: 13px;
+}
+
+.msg {color: white;}
+.esquerda .msg {
+    background-color: #2F3136!important;
+    width: 120px;
+    height: 40px;
+    margin: 0;}
